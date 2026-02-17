@@ -1,5 +1,6 @@
 import { View, Text, StyleSheet, ScrollView, Dimensions } from 'react-native';
 import { useScroll } from '@/src/context/ScrollContext';
+import { Hero } from '@/src/components/Hero';
 
 const { height } = Dimensions.get('window');
 
@@ -12,6 +13,7 @@ export default function Home() {
       scrollEventThrottle={16}
       contentContainerStyle={{ flexGrow: 1 }}
     >
+      <Hero />
       <View 
         onLayout={(e) => saveSectionPosition('sobre', e.nativeEvent.layout.y)}
         style={[styles.section, { backgroundColor: '#121212' }]}
