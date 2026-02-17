@@ -63,7 +63,7 @@ export function Contact() {
             <View style={styles.contactItems}>
               <View style={styles.item}>
                 <View style={styles.iconBox}><Mail color="black" size={24}/></View>
-                <View><Text style={styles.itemLabel}>Email</Text><Text style={styles.itemValue}>douglas.wenzel@hotmail.com.com</Text></View>
+                <View><Text style={styles.itemLabel}>Email</Text><Text style={styles.itemValue}>douglas.wenzel@hotmail.com</Text></View>
               </View>
               <View style={styles.item}>
                 <View style={styles.iconBox}><MapPin color="black" size={24}/></View>
