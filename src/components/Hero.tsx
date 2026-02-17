@@ -43,7 +43,6 @@ export function Hero() {
 
   return (
     <View 
-      onLayout={(e) => saveSectionPosition('sobre', e.nativeEvent.layout.y)}
       style={[styles.container, { minHeight: height }]}
     >
       <View style={[styles.content, isDesktop ? styles.contentRow : styles.contentCol]}>
