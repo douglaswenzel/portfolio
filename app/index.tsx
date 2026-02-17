@@ -5,6 +5,8 @@ import { About } from '@/src/components/About';
 import { Technologies } from '@/src/components/Technologies';
 import { Projects } from '@/src/components/Projects';
 import { Timeline } from '@/src/components/Timeline';
+import { Contact } from '@/src/components/Contact';
+import { Footer } from '@/src/components/Footer';
 
 const { height } = Dimensions.get('window');
 
@@ -38,11 +40,11 @@ export default function Home() {
       </View>
 
       <View 
-        onLayout={(e) => saveSectionPosition('contato', e.nativeEvent.layout.y)}
-        style={[styles.section, { backgroundColor: '#1a1a1a' }]}
-      >
-        <Text style={styles.title}>Contato</Text>
-      </View>
+        onLayout={(e) => saveSectionPosition('contato', e.nativeEvent.layout.y)}>
+        <Contact />
+      </View> 
+
+      <Footer />
       
     </ScrollView>
   );
