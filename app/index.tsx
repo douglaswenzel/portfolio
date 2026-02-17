@@ -4,6 +4,7 @@ import { Hero } from '@/src/components/Hero';
 import { About } from '@/src/components/About';
 import { Technologies } from '@/src/components/Technologies';
 import { Projects } from '@/src/components/Projects';
+import { Timeline } from '@/src/components/Timeline';
 
 const { height } = Dimensions.get('window');
 
@@ -32,10 +33,8 @@ export default function Home() {
       </View>
 
       <View 
-        onLayout={(e) => saveSectionPosition('experiencia', e.nativeEvent.layout.y)}
-        style={[styles.section, { backgroundColor: '#161616' }]}
-      >
-        <Text style={styles.title}>Experiência</Text>
+        onLayout={(e) => saveSectionPosition('experiencia', e.nativeEvent.layout.y)}>
+          <Timeline />
       </View>
 
       <View 
