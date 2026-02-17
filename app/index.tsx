@@ -3,6 +3,7 @@ import { useScroll } from '@/src/context/ScrollContext';
 import { Hero } from '@/src/components/Hero';
 import { About } from '@/src/components/About';
 import { Technologies } from '@/src/components/Technologies';
+import { Projects } from '@/src/components/Projects';
 
 const { height } = Dimensions.get('window');
 
@@ -26,10 +27,8 @@ export default function Home() {
       </View>
 
       <View 
-        onLayout={(e) => saveSectionPosition('projetos', e.nativeEvent.layout.y)}
-        style={[styles.section, { backgroundColor: '#1a1a1a' }]}
-      >
-        <Text style={styles.title}>Projetos</Text>
+        onLayout={(e) => saveSectionPosition('projetos', e.nativeEvent.layout.y)}>
+        <Projects />
       </View>
 
       <View 
