@@ -6,7 +6,7 @@ import {
   ViewStyle
 } from 'react-native';
 
-import { styles } from './Footer/styles';
+import { styles } from './styles';
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
