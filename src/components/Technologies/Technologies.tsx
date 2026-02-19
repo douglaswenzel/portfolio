@@ -1,16 +1,16 @@
-import React, { useState } from 'react';
-import { 
-  View, 
-  Text, 
-  StyleSheet, 
-  useWindowDimensions, 
-  Pressable, 
-  Platform,
-  ViewStyle,
-  TextStyle
-} from 'react-native';
-import { Code2, Database, Layout, Smartphone, Server, Boxes } from 'lucide-react-native';
 import { useScroll } from '@/src/context/ScrollContext';
+import { Boxes, Code2, Database, Layout, Server, Smartphone } from 'lucide-react-native';
+import React, { useState } from 'react';
+import {
+  Pressable,
+  Text,
+  TextStyle,
+  useWindowDimensions,
+  View,
+  ViewStyle
+} from 'react-native';
+
+import { styles } from './styles';
 
 const technologies = [
   { icon: Code2, category: 'Frontend', skills: ['React', 'TypeScript', 'Next.js', 'Tailwind CSS'] },
@@ -79,55 +79,3 @@ export function Technologies() {
     </View>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    backgroundColor: 'black',
-    paddingHorizontal: 24,
-    paddingVertical: 80,
-    alignItems: 'center',
-  },
-  content: {
-    maxWidth: 1280,
-    width: '100%',
-  },
-  sectionTitle: {
-    color: 'white',
-    marginBottom: 64,
-    fontWeight: '400',
-  },
-  titleMobile: { fontSize: 40 },
-  titleDesktop: { fontSize: 64 },
-  grid: {
-    flexDirection: 'row',
-    flexWrap: 'wrap',
-    marginHorizontal: -12, 
-  },
-  card: {
-    borderWidth: 1,
-    borderColor: 'white',
-    padding: 32,
-    margin: 12,
-    backgroundColor: 'transparent',
-    width: Platform.OS === 'web' 
-      ? ('calc(33.33% - 24px)' as any) 
-      : '100%',
-    minWidth: 280,
-    flexGrow: 1,
-  },
-  cardHover: {
-    backgroundColor: 'white',
-  },
-  categoryTitle: {
-    fontSize: 24,
-    fontWeight: '600',
-    marginTop: 16,
-    marginBottom: 16,
-  },
-  skillsList: {
-    gap: 8,
-  },
-  skillItem: {
-    fontSize: 16,
-  },
-});
