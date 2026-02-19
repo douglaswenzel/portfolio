@@ -1,12 +1,12 @@
-import { View, Text, StyleSheet, ScrollView, Dimensions } from 'react-native';
-import { useScroll } from '@/src/context/ScrollContext';
+import { About } from '@/src/components/About/About';
+import { Contact } from '@/src/components/Contact/Contact';
+import { Footer } from '@/src/components/Footer/Footer';
 import { Hero } from '@/src/components/Hero';
-import { About } from '@/src/components/About';
-import { Technologies } from '@/src/components/Technologies';
 import { Projects } from '@/src/components/Projects';
+import { Technologies } from '@/src/components/Technologies';
 import { Timeline } from '@/src/components/Timeline';
-import { Contact } from '@/src/components/Contact';
-import { Footer } from '@/src/components/Footer';
+import { useScroll } from '@/src/context/ScrollContext';
+import { Dimensions, ScrollView, StyleSheet, View } from 'react-native';
 
 const { height } = Dimensions.get('window');
 
