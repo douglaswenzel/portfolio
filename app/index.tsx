@@ -2,9 +2,9 @@ import { About } from '@/src/components/About/About';
 import { Contact } from '@/src/components/Contact/Contact';
 import { Footer } from '@/src/components/Footer/Footer';
 import { Hero } from '@/src/components/Hero/Hero';
-import { Projects } from '@/src/components/Projects';
-import { Technologies } from '@/src/components/Technologies';
-import { Timeline } from '@/src/components/Timeline';
+import { Projects } from '@/src/components/Projects/Projects';
+import { Technologies } from '@/src/components/Technologies/Technologies';
+import { Timeline } from '@/src/components/Timeline/Timeline';
 import { useScroll } from '@/src/context/ScrollContext';
 import { Dimensions, ScrollView, StyleSheet, View } from 'react-native';
 
