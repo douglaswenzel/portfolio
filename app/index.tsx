@@ -1,7 +1,7 @@
 import { About } from '@/src/components/About/About';
 import { Contact } from '@/src/components/Contact/Contact';
 import { Footer } from '@/src/components/Footer/Footer';
-import { Hero } from '@/src/components/Hero';
+import { Hero } from '@/src/components/Hero/Hero';
 import { Projects } from '@/src/components/Projects';
 import { Technologies } from '@/src/components/Technologies';
 import { Timeline } from '@/src/components/Timeline';
