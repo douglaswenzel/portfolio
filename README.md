@@ -1,50 +1,26 @@
-# Welcome to your Expo app 👋
+<h1 align="center"> 📱 Meu Portfólio Mobile - Douglas Wenzel</h1>
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+<br />
 
-## Get started
+<div align="center">
+    <img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React Native Badge">
+    <img src="https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white" alt="Expo Badge">
+    <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript Badge">
+    <img src="https://img.shields.io/badge/Expo_Router-000?style=for-the-badge&logo=expo&logoColor=white" alt="Expo Router">
+</div>
 
-1. Install dependencies
+<br />
 
-   ```bash
-   npm install
-   ```
+## 💻 Sobre o Projeto
+Este é o meu portfólio pessoal, reconstruído do zero utilizando **React Native** e **Expo**. O projeto foi migrado de uma arquitetura Web simples para uma estrutura mobile-first com **Páginas Reais** (Roteamento Dinâmico) através do **Expo Router**.
 
-2. Start the app
+O objetivo é demonstrar minhas competências acadêmicas, projetos realizados e tecnologias que domino, oferecendo uma experiência fluida tanto no navegador quanto em dispositivos móveis.
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## 🚀 Tecnologias Utilizadas
+* **React Native / Expo**: Core do desenvolvimento mobile.
+* **Expo Router**: Sistema de navegação baseado em arquivos (File-based routing).
+* **TypeScript**: Tipagem estática para maior segurança e qualidade de código.
+* **Lucide React Native**: Biblioteca de ícones modernos e leves.
+* **Context API**: Gerenciamento de estado global para funcionalidades de scroll e navegação.
